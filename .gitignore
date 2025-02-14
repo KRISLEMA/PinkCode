@@ -1,0 +1,5 @@
+venv/ 
+data/*.csv 
+models/*.pkl 
+__pycache__/ 
+venv/  __pycache__/  .DS_Store  *.pkl  *.csv  models/  data/structured_data/ 
