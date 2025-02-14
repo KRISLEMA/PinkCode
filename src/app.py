@@ -4,7 +4,7 @@ import numpy as np
 import re
 
 # Load the trained model
-model = joblib.load("C:/Users/us/Documents/PinkCode/models/breast_cancer_model.pkl")
+model = joblib.load("models/breast_cancer_model.pkl")
 
 # Internal symptom-to-feature mapping
 symptom_mapping = {
