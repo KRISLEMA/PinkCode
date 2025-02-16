@@ -10,7 +10,7 @@ model = joblib.load("models/breast_cancer_model.pkl")
 symptom_mapping = {
     "hard lump": ("radius_mean", 30.0),
     "bloody discharge": ("texture_mean", 35.0),
-    "inverted nipple": ("smoothness_mean", 0.20),
+    "hard nipple": ("smoothness_mean", 0.20),
     "skin dimpling": ("compactness_mean", 0.25),
     "persistent pain": ("concavity_mean", 0.30),
     "rapid swelling": ("perimeter_mean", 200.0),
